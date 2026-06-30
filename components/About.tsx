@@ -49,12 +49,14 @@ export default function About() {
               ))}
             </ul>
 
-            <a
-              href="#contact"
-              className="inline-flex items-center gap-2 mt-8 bg-accent hover:bg-accent-dark text-white font-semibold px-7 py-3.5 rounded-2xl transition-all hover:scale-105"
-            >
-              Neem contact op
-            </a>
+            <div className="mt-8 flex justify-center lg:justify-start">
+              <a
+                href="#contact"
+                className="inline-flex items-center gap-2 bg-accent hover:bg-accent-dark text-white font-semibold px-7 py-3.5 rounded-2xl transition-all hover:scale-105"
+              >
+                Neem contact op
+              </a>
+            </div>
           </motion.div>
 
           {/* Visual */}
