@@ -4,18 +4,18 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const portfolioItems = [
-  { id: 1,  title: "Badkamer renovatie",       category: "Loodgieterswerk", seed: 20  },
-  { id: 2,  title: "Binnendeuren plaatsen",     category: "Timmerwerk",      seed: 30  },
-  { id: 3,  title: "Buiten schilderwerk",       category: "Schilderwerk",    seed: 40  },
-  { id: 4,  title: "Wastafels monteren",        category: "Loodgieterswerk", seed: 50  },
-  { id: 5,  title: "Plinten & afwerking",       category: "Timmerwerk",      seed: 60  },
-  { id: 6,  title: "Binnen schilderwerk",       category: "Schilderwerk",    seed: 70  },
-  { id: 7,  title: "Toilet plaatsen",           category: "Loodgieterswerk", seed: 80  },
-  { id: 8,  title: "Gipsplaten plaatsen",       category: "Timmerwerk",      seed: 90  },
-  { id: 9,  title: "Kranen vervangen",          category: "Loodgieterswerk", seed: 100 },
-  { id: 10, title: "Kozijnen schilderen",       category: "Schilderwerk",    seed: 110 },
-  { id: 11, title: "Kitwerk badkamer",          category: "Loodgieterswerk", seed: 120 },
-  { id: 12, title: "Complete woning schilderen",category: "Schilderwerk",    seed: 130 },
+  { id: 1,  title: "Badkamer renovatie",        category: "Loodgieterswerk", photo: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&q=80" },
+  { id: 2,  title: "Binnendeuren plaatsen",      category: "Timmerwerk",      photo: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80" },
+  { id: 3,  title: "Buiten schilderwerk",        category: "Schilderwerk",    photo: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=600&q=80" },
+  { id: 4,  title: "Wastafels monteren",         category: "Loodgieterswerk", photo: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=600&q=80" },
+  { id: 5,  title: "Plinten & afwerking",        category: "Timmerwerk",      photo: "https://images.unsplash.com/photo-1586023492125-27b2c045efd9?w=600&q=80" },
+  { id: 6,  title: "Binnen schilderwerk",        category: "Schilderwerk",    photo: "https://images.unsplash.com/photo-1562259929-b4e1fd3aef09?w=600&q=80" },
+  { id: 7,  title: "Toilet plaatsen",            category: "Loodgieterswerk", photo: "https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?w=600&q=80" },
+  { id: 8,  title: "Gipsplaten plaatsen",        category: "Timmerwerk",      photo: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80" },
+  { id: 9,  title: "Kranen vervangen",           category: "Loodgieterswerk", photo: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=600&q=80" },
+  { id: 10, title: "Kozijnen schilderen",        category: "Schilderwerk",    photo: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=600&q=80" },
+  { id: 11, title: "Kitwerk badkamer",           category: "Loodgieterswerk", photo: "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?w=600&q=80" },
+  { id: 12, title: "Complete woning schilderen", category: "Schilderwerk",    photo: "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?w=600&q=80" },
 ];
 
 export default function Portfolio() {
@@ -49,7 +49,7 @@ export default function Portfolio() {
               className="group relative rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 aspect-[4/3]"
             >
               <Image
-                src={`https://picsum.photos/seed/${item.seed}/600/450`}
+                src={item.photo}
                 alt={item.title}
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -67,9 +67,6 @@ export default function Portfolio() {
           ))}
         </div>
 
-        <p className="text-center text-bh-muted text-sm mt-8">
-          * Foto&apos;s worden vervangen door eigen projectfoto&apos;s.
-        </p>
       </div>
     </section>
   );
