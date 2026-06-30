@@ -102,10 +102,6 @@ export default function Contact() {
               </a>
             ))}
 
-            {/* Map placeholder */}
-            <div className="bg-gray-200 rounded-2xl h-44 flex items-center justify-center text-bh-muted text-sm mt-4">
-              📍 Google Maps — voeg hier een embed toe
-            </div>
           </motion.div>
 
           {/* Contact form */}
