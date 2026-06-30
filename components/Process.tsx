@@ -99,7 +99,7 @@ export default function Process() {
             href="#contact"
             className="inline-flex items-center gap-2 bg-accent hover:bg-accent-dark text-white font-semibold px-8 py-4 rounded-2xl shadow-md transition-all hover:scale-105"
           >
-            Start met stap 1 →
+            Start met stap 1
           </a>
         </motion.div>
       </div>
