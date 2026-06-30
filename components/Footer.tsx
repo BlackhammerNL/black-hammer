@@ -16,7 +16,7 @@ export default function Footer() {
   return (
     <footer className="bg-primary text-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-5">
@@ -51,6 +51,31 @@ export default function Footer() {
                   </a>
                 </li>
               ))}
+            </ul>
+          </div>
+
+          {/* Bedrijfsinfo */}
+          <div>
+            <h3 className="font-semibold mb-5 text-sm tracking-widest uppercase text-white/50">
+              Bedrijfsinfo
+            </h3>
+            <ul className="space-y-3 text-sm text-white/70">
+              <li>
+                <span className="text-white/40 text-xs uppercase tracking-wide block mb-0.5">KvK</span>
+                [KVK-NUMMER]
+              </li>
+              <li>
+                <span className="text-white/40 text-xs uppercase tracking-wide block mb-0.5">BTW</span>
+                [BTW-NUMMER]
+              </li>
+              <li>
+                <span className="text-white/40 text-xs uppercase tracking-wide block mb-0.5">Werkgebied</span>
+                [WERKGEBIED]
+              </li>
+              <li>
+                <span className="text-white/40 text-xs uppercase tracking-wide block mb-0.5">Openingstijden</span>
+                [OPENINGSTIJDEN]
+              </li>
             </ul>
           </div>
 
@@ -92,8 +117,6 @@ export default function Footer() {
       <div className="border-t border-white/10 py-5">
         <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-6 text-white/40 text-xs">
           <span>© {year} Black Hammer. Alle rechten voorbehouden.</span>
-          <span className="hidden sm:block">·</span>
-          <span>KvK: [KVK-NUMMER]</span>
           <span className="hidden sm:block">·</span>
           <Link href="/privacy" className="hover:text-white/70 transition-colors">Privacybeleid</Link>
           <span className="hidden sm:block">·</span>
