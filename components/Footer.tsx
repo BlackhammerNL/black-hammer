@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Phone, Mail, MapPin, Camera } from "lucide-react";
 
 const navLinks = [
@@ -93,6 +94,10 @@ export default function Footer() {
           <span>© {year} Black Hammer. Alle rechten voorbehouden.</span>
           <span className="hidden sm:block">·</span>
           <span>KvK: [KVK-NUMMER]</span>
+          <span className="hidden sm:block">·</span>
+          <Link href="/privacy" className="hover:text-white/70 transition-colors">Privacybeleid</Link>
+          <span className="hidden sm:block">·</span>
+          <Link href="/voorwaarden" className="hover:text-white/70 transition-colors">Algemene Voorwaarden</Link>
         </div>
       </div>
     </footer>
