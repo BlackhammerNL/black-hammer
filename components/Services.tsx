@@ -8,7 +8,7 @@ const services = [
     icon: Wrench,
     title: "Loodgieterswerk",
     description:
-      "Van kleine lekkages tot complete badkamerinstallaties — snel, netjes en vakkundig.",
+      "Van kleine lekkages tot complete badkamerinstallaties. Snel, netjes en vakkundig.",
     items: [
       "Badkamermeubels plaatsen",
       "Wastafels plaatsen",
@@ -52,7 +52,7 @@ export default function Services() {
             Onze diensten
           </h2>
           <p className="text-bh-muted max-w-xl mx-auto">
-            Alles in en rondom uw woning — één aanspreekpunt, één rekening.
+            Alles in en rondom uw woning. Één aanspreekpunt, één rekening.
           </p>
         </motion.div>
 

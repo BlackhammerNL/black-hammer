@@ -45,7 +45,7 @@ export default function Benefits() {
             Waarom kiezen voor Black Hammer?
           </h2>
           <p className="text-bh-muted max-w-xl mx-auto">
-            Wij doen wat we beloven — niet meer, niet minder.
+            Wij doen wat we beloven. Geen verrassingen, gewoon goed werk.
           </p>
         </motion.div>
 

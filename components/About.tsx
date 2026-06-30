@@ -5,7 +5,7 @@ import { CheckCircle } from "lucide-react";
 
 const highlights = [
   "Jarenlange vakervaring in loodgieterswerk, timmerwerk en schilderwerk",
-  "Altijd eerlijk advies — ook als een klus bij iemand anders beter past",
+  "Altijd eerlijk advies, ook als een klus bij iemand anders beter past",
   "Nette werkplek: we ruimen altijd alles netjes op na afloop",
   "Honderden tevreden klanten in de regio",
 ];
@@ -27,7 +27,7 @@ export default function About() {
             </h2>
             <p className="text-white/80 leading-relaxed mb-6">
               Bij Black Hammer draait alles om vakmanschap en vertrouwen. We
-              zijn een nuchter klusbedrijf dat gewoon goed werk levert — zonder
+              zijn een nuchter klusbedrijf dat gewoon goed werk levert, zonder
               mooie praatjes, maar mét een nette afwerking.
             </p>
             <p className="text-white/80 leading-relaxed mb-8">

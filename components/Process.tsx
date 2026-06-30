@@ -16,7 +16,7 @@ const steps = [
     step: "02",
     title: "Ontvang een vrijblijvende offerte",
     description:
-      "U ontvangt een heldere offerte zonder kleine lettertjes — transparant en eerlijk.",
+      "U ontvangt een heldere offerte zonder kleine lettertjes. Transparant en eerlijk.",
   },
   {
     icon: CalendarCheck,
