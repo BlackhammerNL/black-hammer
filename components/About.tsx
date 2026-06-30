@@ -25,16 +25,15 @@ export default function About() {
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
               Over Black Hammer
             </h2>
-            <p className="text-white/80 leading-relaxed mb-6">
-              Bij Black Hammer draait alles om vakmanschap en vertrouwen. We
-              zijn een nuchter klusbedrijf dat gewoon goed werk levert, zonder
-              mooie praatjes, maar mét een nette afwerking.
+            <p className="text-white font-semibold text-lg leading-relaxed mb-4">
+              Vakmanschap zonder poespas.
+            </p>
+            <p className="text-white/80 leading-relaxed mb-4">
+              Wij geloven dat een afspraak gewoon een afspraak is.
             </p>
             <p className="text-white/80 leading-relaxed mb-8">
-              Of het nu gaat om een lekkende kraan, een nieuwe deur of een
-              complete schilderbeurt: u kunt erop rekenen dat we doen wat we
-              zeggen. Duidelijke afspraken, eerlijke prijzen en een eindresultaat
-              waar u trots op kunt zijn.
+              Daarom werken wij netjes, communiceren duidelijk en leveren wij
+              iedere klus af alsof het ons eigen huis is.
             </p>
 
             <ul className="space-y-4">
