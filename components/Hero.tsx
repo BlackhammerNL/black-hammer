@@ -5,7 +5,7 @@ import { MessageCircle, FileText, ChevronDown } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
       {/* Achtergrond foto — vervang de URL door een eigen foto */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
