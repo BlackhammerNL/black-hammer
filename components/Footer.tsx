@@ -70,7 +70,7 @@ export default function Footer() {
               </li>
               <li>
                 <span className="text-white/40 text-xs uppercase tracking-wide block mb-0.5">Werkgebied</span>
-                [WERKGEBIED]
+                Heel Nederland
               </li>
               <li>
                 <span className="text-white/40 text-xs uppercase tracking-wide block mb-0.5">Openingstijden</span>

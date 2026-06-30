@@ -45,7 +45,7 @@ export default function Process() {
           transition={{ duration: 0.5 }}
           className="text-center mb-14"
         >
-          <h2 className="text-3xl sm:text-4xl font-bold text-primary mb-4">
+          <h2 className="text-4xl sm:text-5xl font-bold text-primary mb-4">
             Hoe werkt het?
           </h2>
           <p className="text-bh-muted max-w-xl mx-auto">
@@ -56,7 +56,7 @@ export default function Process() {
 
         <div className="relative">
           {/* Connector line — desktop */}
-          <div className="hidden lg:block absolute top-10 left-[12.5%] right-[12.5%] h-0.5 bg-gray-200" />
+          <div className="hidden lg:block absolute top-10 left-[12.5%] right-[12.5%] h-px bg-gray-100" />
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {steps.map((item, i) => (

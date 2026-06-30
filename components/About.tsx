@@ -22,7 +22,7 @@ export default function About() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
+            <h2 className="text-4xl sm:text-5xl font-bold text-white mb-6">
               Over Black Hammer
             </h2>
             <p className="text-white font-semibold text-lg leading-relaxed mb-4">

@@ -35,12 +35,11 @@ export default function Contact() {
           transition={{ duration: 0.5 }}
           className="text-center mb-14"
         >
-          <h2 className="text-3xl sm:text-4xl font-bold text-primary mb-4">
+          <h2 className="text-4xl sm:text-5xl font-bold text-primary mb-4">
             Neem contact op
           </h2>
           <p className="text-bh-muted max-w-xl mx-auto">
-            Vraag een gratis offerte aan of stel uw vraag. We reageren altijd
-            snel.
+            Vraag een gratis offerte aan of stel uw vraag. Wij reageren binnen 24 uur.
           </p>
         </motion.div>
 

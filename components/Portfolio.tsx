@@ -29,7 +29,7 @@ export default function Portfolio() {
           transition={{ duration: 0.5 }}
           className="text-center mb-14"
         >
-          <h2 className="text-3xl sm:text-4xl font-bold text-primary mb-4">
+          <h2 className="text-4xl sm:text-5xl font-bold text-primary mb-4">
             Eerder werk
           </h2>
           <p className="text-bh-muted max-w-xl mx-auto">
