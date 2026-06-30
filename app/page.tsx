@@ -1,0 +1,29 @@
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import Benefits from "@/components/Benefits";
+import Services from "@/components/Services";
+import Portfolio from "@/components/Portfolio";
+import Process from "@/components/Process";
+import About from "@/components/About";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
+import ScrollToTop from "@/components/ScrollToTop";
+
+export default function Home() {
+  return (
+    <>
+      <Navbar />
+      <main>
+        <Hero />
+        <Benefits />
+        <Services />
+        <Portfolio />
+        <Process />
+        <About />
+        <Contact />
+      </main>
+      <Footer />
+      <ScrollToTop />
+    </>
+  );
+}
