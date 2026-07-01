@@ -75,9 +75,10 @@ export default function Contact() {
                 icon: MapPin,
                 label: "Adres",
                 value: ADDRESS,
-                href: `https://maps.google.com/?q=${encodeURIComponent(ADDRESS)}`,
+                href: null,
               },
             ].map((item) => (
+              item.href ? (
               <a
                 key={item.label}
                 href={item.href}
@@ -86,20 +87,27 @@ export default function Contact() {
                 className="flex items-start gap-4 bg-white p-5 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow group"
               >
                 <div className="w-11 h-11 bg-primary/10 rounded-xl flex items-center justify-center shrink-0 group-hover:bg-primary transition-colors">
-                  <item.icon
-                    size={20}
-                    className="text-primary group-hover:text-white transition-colors"
-                  />
+                  <item.icon size={20} className="text-primary group-hover:text-white transition-colors" />
                 </div>
                 <div>
-                  <div className="text-xs text-bh-muted font-medium mb-0.5">
-                    {item.label}
-                  </div>
-                  <div className="text-bh-text font-semibold text-sm">
-                    {item.value}
-                  </div>
+                  <div className="text-xs text-bh-muted font-medium mb-0.5">{item.label}</div>
+                  <div className="text-bh-text font-semibold text-sm">{item.value}</div>
                 </div>
               </a>
+              ) : (
+              <div
+                key={item.label}
+                className="flex items-start gap-4 bg-white p-5 rounded-2xl border border-gray-100 shadow-sm"
+              >
+                <div className="w-11 h-11 bg-primary/10 rounded-xl flex items-center justify-center shrink-0">
+                  <item.icon size={20} className="text-primary" />
+                </div>
+                <div>
+                  <div className="text-xs text-bh-muted font-medium mb-0.5">{item.label}</div>
+                  <div className="text-bh-text font-semibold text-sm">{item.value}</div>
+                </div>
+              </div>
+              )
             ))}
 
           </motion.div>
