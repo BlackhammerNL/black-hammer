@@ -17,14 +17,14 @@ export default function VoorwaardenPage() {
             Algemene Voorwaarden
           </h1>
           <p className="text-bh-muted text-sm mb-10">
-            Versie: juli 2026 · Black Hammer, [PLAATSNAAM]
+            Versie: juli 2026 · Black Hammer, Haarlem
           </p>
 
           <div className="space-y-8 text-bh-text">
             <section>
               <h2 className="text-xl font-bold text-primary mb-3">Artikel 1 – Definities</h2>
               <ul className="space-y-2 text-bh-muted leading-relaxed">
-                <li><strong className="text-bh-text">Opdrachtnemer:</strong> Black Hammer, gevestigd te [PLAATSNAAM], ingeschreven bij de KvK onder nummer [KVK-NUMMER].</li>
+                <li><strong className="text-bh-text">Opdrachtnemer:</strong> Black Hammer, gevestigd te Haarlem, ingeschreven bij de KvK onder nummer 91300592.</li>
                 <li><strong className="text-bh-text">Opdrachtgever:</strong> de persoon of het bedrijf dat opdracht geeft tot het uitvoeren van werkzaamheden.</li>
                 <li><strong className="text-bh-text">Overeenkomst:</strong> de afspraken tussen opdrachtnemer en opdrachtgever over uit te voeren werkzaamheden.</li>
               </ul>
@@ -95,7 +95,7 @@ export default function VoorwaardenPage() {
             <section>
               <h2 className="text-xl font-bold text-primary mb-3">Artikel 9 – Toepasselijk recht</h2>
               <p className="leading-relaxed text-bh-muted">
-                Op alle overeenkomsten met Black Hammer is uitsluitend Nederlands recht van toepassing. Geschillen worden voorgelegd aan de bevoegde rechter in het arrondissement [PLAATSNAAM].
+                Op alle overeenkomsten met Black Hammer is uitsluitend Nederlands recht van toepassing. Geschillen worden voorgelegd aan de bevoegde rechter in het arrondissement Haarlem.
               </p>
             </section>
           </div>

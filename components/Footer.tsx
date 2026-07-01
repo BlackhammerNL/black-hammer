@@ -62,11 +62,11 @@ export default function Footer() {
             <ul className="space-y-3 text-sm text-white/70">
               <li>
                 <span className="text-white/40 text-xs uppercase tracking-wide block mb-0.5">KvK</span>
-                [KVK-NUMMER]
+                91300592
               </li>
               <li>
                 <span className="text-white/40 text-xs uppercase tracking-wide block mb-0.5">BTW</span>
-                [BTW-NUMMER]
+                NL004880736B93
               </li>
               <li>
                 <span className="text-white/40 text-xs uppercase tracking-wide block mb-0.5">Werkgebied</span>
@@ -74,7 +74,7 @@ export default function Footer() {
               </li>
               <li>
                 <span className="text-white/40 text-xs uppercase tracking-wide block mb-0.5">Openingstijden</span>
-                [OPENINGSTIJDEN]
+                Ma t/m zo 08:00 - 22:00
               </li>
             </ul>
           </div>
@@ -87,21 +87,21 @@ export default function Footer() {
             <ul className="space-y-3 text-sm text-white/70">
               <li className="flex items-center gap-3">
                 <Phone size={15} className="text-accent shrink-0" />
-                [TELEFOONNUMMER]
+                06 48 81 69 65
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={15} className="text-accent shrink-0" />
-                [E-MAILADRES]
+                Black-Hammer023@outlook.com
               </li>
               <li className="flex items-start gap-3">
                 <MapPin size={15} className="text-accent shrink-0 mt-0.5" />
-                [ADRES EN PLAATSNAAM]
+                Aart van der Leeuwstraat 128, Haarlem
               </li>
             </ul>
 
             {/* Instagram CTA */}
             <a
-              href="https://instagram.com/[INSTAGRAM_NAAM]"
+              href="https://instagram.com/blackhammer023"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 mt-6 bg-accent hover:bg-accent-dark text-white text-sm font-semibold px-4 py-2.5 rounded-xl transition-colors"

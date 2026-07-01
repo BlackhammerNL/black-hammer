@@ -53,7 +53,7 @@ export default function Hero() {
               Vraag offerte aan
             </a>
             <a
-              href="https://wa.me/31600000000"
+              href="https://wa.me/31648816965"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 border border-white/30 text-white font-semibold text-base px-8 py-4 rounded-2xl backdrop-blur-sm transition-all hover:scale-105"

@@ -22,7 +22,7 @@ export default function PrivacyPage() {
             <section>
               <h2 className="text-xl font-bold text-primary mb-3">1. Wie zijn wij?</h2>
               <p className="leading-relaxed">
-                Black Hammer is een klusbedrijf gevestigd in Nederland. Wij bieden diensten aan op het gebied van loodgieterswerk, timmerwerk en schilderwerk. Voor vragen over dit privacybeleid kunt u contact opnemen via <strong>[E-MAILADRES]</strong>.
+                Black Hammer is een klusbedrijf gevestigd in Nederland. Wij bieden diensten aan op het gebied van loodgieterswerk, timmerwerk en schilderwerk. Voor vragen over dit privacybeleid kunt u contact opnemen via <strong>Black-Hammer023@outlook.com</strong>.
               </p>
             </section>
 
@@ -71,7 +71,7 @@ export default function PrivacyPage() {
                 <li>Recht op bezwaar tegen verwerking</li>
               </ul>
               <p className="leading-relaxed mt-3">
-                Neem contact met ons op via <strong>[E-MAILADRES]</strong> om gebruik te maken van uw rechten. Wij reageren binnen 30 dagen.
+                Neem contact met ons op via <strong>Black-Hammer023@outlook.com</strong> om gebruik te maken van uw rechten. Wij reageren binnen 30 dagen.
               </p>
             </section>
 
@@ -102,10 +102,10 @@ export default function PrivacyPage() {
               <p className="leading-relaxed">Heeft u vragen over ons privacybeleid?</p>
               <div className="mt-3 bg-white rounded-2xl p-5 border border-gray-100 text-sm space-y-1">
                 <p><strong>Black Hammer</strong></p>
-                <p>[ADRES EN PLAATSNAAM]</p>
-                <p>[E-MAILADRES]</p>
-                <p>[TELEFOONNUMMER]</p>
-                <p>KvK: [KVK-NUMMER]</p>
+                <p>Aart van der Leeuwstraat 128, Haarlem</p>
+                <p>Black-Hammer023@outlook.com</p>
+                <p>06 48 81 69 65</p>
+                <p>KvK: 91300592</p>
               </div>
             </section>
           </div>

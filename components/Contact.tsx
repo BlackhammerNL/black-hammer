@@ -5,10 +5,10 @@ import { motion } from "framer-motion";
 import { Phone, MessageCircle, Mail, MapPin } from "lucide-react";
 
 /* ── Vul hier de echte contactgegevens in ─────────────────── */
-const PHONE = "[TELEFOONNUMMER]";
-const WHATSAPP_NUMBER = "31600000000"; // formaat: landcode + nummer zonder +
-const EMAIL = "[E-MAILADRES]";
-const ADDRESS = "[ADRES EN PLAATSNAAM]";
+const PHONE = "06 48 81 69 65";
+const WHATSAPP_NUMBER = "31648816965";
+const EMAIL = "Black-Hammer023@outlook.com";
+const ADDRESS = "Aart van der Leeuwstraat 128, Haarlem";
 /* ─────────────────────────────────────────────────────────── */
 
 export default function Contact() {
