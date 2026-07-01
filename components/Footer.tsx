@@ -74,7 +74,7 @@ export default function Footer() {
               </li>
               <li>
                 <span className="text-white/40 text-xs uppercase tracking-wide block mb-0.5">Openingstijden</span>
-                Ma t/m zo 08:00 - 22:00
+                Ma t/m zo 09:00 - 18:00
               </li>
             </ul>
           </div>
