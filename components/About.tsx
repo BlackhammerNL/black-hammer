@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 import { CheckCircle } from "lucide-react";
 
 const highlights = [
-  "Jarenlange vakervaring in loodgieterswerk, timmerwerk en schilderwerk",
+  "Meer dan 15 jaar vakervaring in loodgieterswerk, timmerwerk en schilderwerk",
   "Altijd eerlijk advies, ook als een klus bij iemand anders beter past",
   "Nette werkplek: we ruimen altijd alles netjes op na afloop",
-  "Honderden tevreden klanten in de regio",
+  "534 tevreden klanten in de regio",
 ];
 
 export default function About() {
@@ -69,8 +69,8 @@ export default function About() {
             {/* Stats cards */}
             <div className="grid grid-cols-2 gap-4">
               {[
-                { value: "10+", label: "Jaar ervaring" },
-                { value: "200+", label: "Tevreden klanten" },
+                { value: "15+", label: "Jaar ervaring" },
+                { value: "534", label: "Tevreden klanten" },
                 { value: "3", label: "Vakgebieden" },
                 { value: "100%", label: "Nette afwerking" },
               ].map((stat) => (
