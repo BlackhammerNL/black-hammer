@@ -183,7 +183,7 @@ export default function Contact() {
                   type="submit"
                   className="w-full bg-accent hover:bg-accent-dark text-white font-semibold py-4 rounded-xl transition-colors"
                 >
-                  Stuur bericht →
+                  Stuur bericht
                 </button>
                 <p className="text-center text-xs text-bh-muted">
                   Of app direct via{" "}
